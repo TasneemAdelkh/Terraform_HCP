@@ -4,7 +4,7 @@ variable "prefix"{
 variable "length"{
 	type = number
 }
-resource "random_pet" "pet-name"{
+resource "random_pet" "pet-name-updated"{
 	prefix = var.prefix
 	length = var.length
 }
